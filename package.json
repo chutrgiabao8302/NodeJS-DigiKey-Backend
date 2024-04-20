@@ -1,0 +1,36 @@
+{
+  "name": "nodejs-digikey-backend",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "server": "node ./src/index.js",
+    "dev": "nodemon --inspect ./src/index.js",
+    "build": "npm i && npm i nodemon --save-dev"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "module",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "body-parser": "^1.20.2",
+    "cookie-parser": "^1.4.6",
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.5",
+    "express": "^4.19.2",
+    "express-session": "^1.18.0",
+    "fs-exrta": "^0.0.1-security",
+    "mongoose": "^8.3.2",
+    "morgan": "^1.10.0",
+    "path": "^0.12.7",
+    "qrcode": "^1.5.3",
+    "stripe": "^15.2.0",
+    "sud-libs": "^1.2.1",
+    "url": "^0.11.3"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.0"
+  }
+}
